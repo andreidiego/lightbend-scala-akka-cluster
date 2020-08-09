@@ -1,0 +1,294 @@
+{
+  "start-time": "2020-05-13T22:44:25.451",
+  "akka-version": "2.6.0",
+  "akka-diagnostics-version": "1.1.12",
+  "akka-http-version": "10.1.11",
+  "akka-split-brain-resolver-version": "1.1.12",
+  "classpath": "C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\job-1\target\b98db293\c0fbc1bc\loyalty_2.13-0.1-SNAPSHOT.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\de2f8677\8d7931b3\cinnamon-scala_2.13-2.13.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\4c96c069\ddf3583c\cinnamon-core-java-2.13.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\641f5007\9e4235b4\akka-serialization-jackson_2.13-2.6.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\b9660a1e\aff38c77\jackson-module-scala_2.13-2.10.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\a08e6cc4\fcfcb823\cinnamon-akka-http_2.13-2.13.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\601f3cbd\65a4d7a3\config-1.4.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\ee097d65\0efedb67\jackson-core-2.10.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\bd4b828d\a3544a82\akka-distributed-data_2.13-2.6.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\55e4a00f\8752e249\akka-split-brain-resolver_2.13-1.1.12.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\4bf5847c\cb34b137\scala-java8-compat_2.13-0.9.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\78118691\4233fb28\jackson-datatype-jdk8-2.10.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\7068f63a\066b4db5\commons-lang3-3.5.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\da18f355\f7a642d3\scala-library-2.13.1.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\ffad5f4c\48a5ef8b\akka-http-spray-json_2.13-10.1.11.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\74d235e0\de51ef4b\scala-parser-combinators_2.13-1.1.2.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\47a5b4b8\a5f09784\spray-json_2.13-1.3.5.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\bc19c79e\29a67df4\jnr-a64asm-1.0.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\78b000c4\173c0be0\akka-coordination_2.13-2.6.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\6ef5c4ac\0a68ca93\akka-protobuf-v3_2.13-2.6.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\8689b6a3\721ddddb\cinnamon-jvm-metrics-producer-2.13.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\5fb64907\dccb3b8e\jnr-constants-0.9.12.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\8cc64101\12b3affb\akka-http-core_2.13-10.1.11.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\2ed26b3e\f5a8db26\ssl-config-core_2.13-0.4.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\78dfa7f7\c140e4ce\simpleclient-0.8.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\a778e2ef\97705cb7\logback-classic-1.2.3.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\be60be65\3a1689ef\asm-commons-5.0.3.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\36a88041\be238050\asm-5.0.3.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\afe5b3ac\11c5c43b\akka-cluster-sharding_2.13-2.6.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\9c580758\3fb9012e\lmdbjava-0.7.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\79b2e646\025fb2e5\jackson-annotations-2.10.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\2cdc7005\aa4347ce\cinnamon-java-2.13.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\6cc771b5\1b96c5e6\simpleclient_httpserver-0.8.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\01b6d3db\a7690bbc\akka-management-cluster-http_2.13-1.0.5.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\630a9a58\4e207215\akka-slf4j_2.13-2.6.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\ebe66a75\be35860f\agrona-1.0.8.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\4ed2b2e3\ea1caec1\protobuf-java-3.10.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\17516009\14d77992\HdrHistogram-2.1.12.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\528933fa\9f77b5f0\simpleclient_common-0.8.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\4f76e975\17cd9300\jackson-dataformat-cbor-2.10.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\b6dfbd20\9058fb50\cinnamon-common-2.13.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\dba3ba39\3a662b3b\akka-diagnostics_2.13-1.1.12.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\187e5d12\76f2ba34\jnr-ffi-2.1.9.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\bf7bfce5\3df2aabe\jffi-1.2.18.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\11a57102\f69ed484\cinnamon-akka_2.13-2.13.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\18794419\c21dd68c\akka-http_2.13-10.1.11.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\4fa92f7f\814119e2\akka-cluster_2.13-2.6.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\313339a7\748e460d\cinnamon-prometheus-httpserver-2.13.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\b71bfec6\052d106f\slf4j-api-1.7.28.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\12926f43\e695b49a\akka-actor_2.13-2.6.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\6ff460b6\80eb210f\akka-remote_2.13-2.6.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\ceaeb4ec\d875bee2\jnr-x86asm-1.0.2.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\361211ca\1b1e610b\cinnamon-prometheus-2.13.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\54cd31c3\30189697\akka-management_2.13-1.0.5.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\2230d467\daed874d\paranamer-2.8.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\89d10161\3bc0ac48\akka-persistence_2.13-2.6.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\b3c78439\002f34b9\cinnamon-core_2.13-2.13.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\a2ff8ec0\8fa64fae\reactive-streams-1.0.3.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\4d95aad7\e023e618\jackson-module-parameter-names-2.10.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\dbcc25a1\2a0bf9ae\asm-tree-5.0.3.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\b19ce759\ab926ea8\jackson-module-paranamer-2.10.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\43080d9d\22111b7f\asm-analysis-5.0.3.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\c8db9284\eca239bd\jffi-1.2.18-native.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\6f1c9d64\2c145835\asm-util-5.0.3.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\4aa00747\c5f17aae\akka-parsing_2.13-10.1.11.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\77e6cbc7\a021cd8c\jackson-datatype-jsr310-2.10.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\982e9971\8d05bad2\logback-core-1.2.3.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\2e9ad74c\054ff98d\akka-cluster-tools_2.13-2.6.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\8dc1cd6b\4870ab3c\jackson-databind-2.10.0.jar;C:\Users\ac23171\AppData\Local\Temp\sbt_34739fd0\target\b0d94310\5254d47e\akka-stream_2.13-2.6.0.jar",
+  "configuration-warnings": [],
+  "system-metrics": {
+    "heap-init": 266338304,
+    "heap-max": 4259315712,
+    "heap-used": 84707312,
+    "heap-committed": 266338304,
+    "os-processors": 8,
+    "mem-pool-0": {
+      "name": "CodeHeap 'non-nmethods'",
+      "type": "Non-heap memory",
+      "init": 2555904,
+      "max": 5898240,
+      "used": 1338880,
+      "committed": 2555904
+    },
+    "mem-pool-1": {
+      "name": "Metaspace",
+      "type": "Non-heap memory",
+      "init": 0,
+      "max": -1,
+      "used": 66799384,
+      "committed": 69820416
+    },
+    "mem-pool-2": {
+      "name": "CodeHeap 'profiled nmethods'",
+      "type": "Non-heap memory",
+      "init": 2555904,
+      "max": 122880000,
+      "used": 9861248,
+      "committed": 9895936
+    },
+    "mem-pool-3": {
+      "name": "Compressed Class Space",
+      "type": "Non-heap memory",
+      "init": 0,
+      "max": 1073741824,
+      "used": 8644664,
+      "committed": 10092544
+    },
+    "mem-pool-4": {
+      "name": "G1 Eden Space",
+      "type": "Heap memory",
+      "init": 27262976,
+      "max": -1,
+      "used": 67108864,
+      "committed": 157286400
+    },
+    "mem-pool-5": {
+      "name": "G1 Old Gen",
+      "type": "Heap memory",
+      "init": 239075328,
+      "max": 4259315712,
+      "used": 7112688,
+      "committed": 98566144
+    },
+    "mem-pool-6": {
+      "name": "G1 Survivor Space",
+      "type": "Heap memory",
+      "init": 0,
+      "max": -1,
+      "used": 10485760,
+      "committed": 10485760
+    },
+    "mem-pool-7": {
+      "name": "CodeHeap 'non-profiled nmethods'",
+      "type": "Non-heap memory",
+      "init": 2555904,
+      "max": 122880000,
+      "used": 3203840,
+      "committed": 3211264
+    }
+  },
+  "configuration": {
+    "akka": {
+      "actor": {
+        "provider": "cluster",
+        "serialization-bindings": {
+          "com.reactivebbq.loyalty.SerializableMessage": "jackson-cbor"
+        }
+      },
+      "cluster": {
+        "downing-provider-class": "com.lightbend.akka.sbr.SplitBrainResolverProvider",
+        "seed-nodes": [
+          "akka://Loyalty@127.0.0.1:2551",
+          "akka://Loyalty@127.0.0.1:2552"
+        ],
+        "split-brain-resolver": {
+          "active-strategy": "keep-majority"
+        }
+      },
+      "http": {
+        "server": {
+          "default-http-port": "8000",
+          "server-header": "akka-http/10.1.11"
+        },
+        "version": "10.1.11"
+      },
+      "loggers": [
+        "akka.event.slf4j.Slf4jLogger"
+      ],
+      "logging-filter": "akka.event.slf4j.Slf4jLoggingFilter",
+      "loglevel": "DEBUG",
+      "management": {
+        "http": {
+          "hostname": "127.0.0.1",
+          "port": "8558",
+          "route-providers-read-only": false
+        }
+      },
+      "remote": {
+        "artery": {
+          "canonical": {
+            "hostname": "127.0.0.1",
+            "port": "2551"
+          },
+          "transport": "tcp"
+        }
+      },
+      "version": "2.6.0"
+    },
+    "awt": {
+      "toolkit": "sun.awt.windows.WToolkit"
+    },
+    "cinnamon": {
+      "akka": {
+        "actors": {
+          "/system/sharding/*": {
+            "report-by": "class"
+          },
+          "/user/*": {
+            "report-by": "class"
+          }
+        },
+        "cluster": {
+          "node-metrics": "on",
+          "shard-region-info": "on"
+        },
+        "dispatchers": {
+          "basic-information": {
+            "names": [
+              "*"
+            ]
+          },
+          "time-information": {
+            "names": [
+              "*"
+            ]
+          }
+        },
+        "http": {
+          "servers": {
+            "*:*": {
+              "paths": {
+                "*": {
+                  "metrics": "on"
+                }
+              }
+            }
+          }
+        }
+      },
+      "prometheus": {
+        "exporters": [
+          "http-server",
+          "http-server"
+        ],
+        "http-server": {
+          "host": "0.0.0.0",
+          "port": "9001"
+        }
+      }
+    },
+    "excluded-sensitive-paths": [
+      "user.home",
+      "user.dir",
+      "user.name"
+    ],
+    "file": {
+      "encoding": "Cp1252",
+      "separator": "\\"
+    },
+    "java": {
+      "awt": {
+        "graphicsenv": "sun.awt.Win32GraphicsEnvironment",
+        "printerjob": "sun.awt.windows.WPrinterJob"
+      },
+      "class": {
+        "path": "C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\job-1\\target\\b98db293\\c0fbc1bc\\loyalty_2.13-0.1-SNAPSHOT.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\de2f8677\\8d7931b3\\cinnamon-scala_2.13-2.13.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\4c96c069\\ddf3583c\\cinnamon-core-java-2.13.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\641f5007\\9e4235b4\\akka-serialization-jackson_2.13-2.6.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\b9660a1e\\aff38c77\\jackson-module-scala_2.13-2.10.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\a08e6cc4\\fcfcb823\\cinnamon-akka-http_2.13-2.13.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\601f3cbd\\65a4d7a3\\config-1.4.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\ee097d65\\0efedb67\\jackson-core-2.10.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\bd4b828d\\a3544a82\\akka-distributed-data_2.13-2.6.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\55e4a00f\\8752e249\\akka-split-brain-resolver_2.13-1.1.12.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\4bf5847c\\cb34b137\\scala-java8-compat_2.13-0.9.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\78118691\\4233fb28\\jackson-datatype-jdk8-2.10.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\7068f63a\\066b4db5\\commons-lang3-3.5.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\da18f355\\f7a642d3\\scala-library-2.13.1.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\ffad5f4c\\48a5ef8b\\akka-http-spray-json_2.13-10.1.11.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\74d235e0\\de51ef4b\\scala-parser-combinators_2.13-1.1.2.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\47a5b4b8\\a5f09784\\spray-json_2.13-1.3.5.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\bc19c79e\\29a67df4\\jnr-a64asm-1.0.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\78b000c4\\173c0be0\\akka-coordination_2.13-2.6.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\6ef5c4ac\\0a68ca93\\akka-protobuf-v3_2.13-2.6.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\8689b6a3\\721ddddb\\cinnamon-jvm-metrics-producer-2.13.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\5fb64907\\dccb3b8e\\jnr-constants-0.9.12.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\8cc64101\\12b3affb\\akka-http-core_2.13-10.1.11.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\2ed26b3e\\f5a8db26\\ssl-config-core_2.13-0.4.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\78dfa7f7\\c140e4ce\\simpleclient-0.8.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\a778e2ef\\97705cb7\\logback-classic-1.2.3.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\be60be65\\3a1689ef\\asm-commons-5.0.3.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\36a88041\\be238050\\asm-5.0.3.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\afe5b3ac\\11c5c43b\\akka-cluster-sharding_2.13-2.6.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\9c580758\\3fb9012e\\lmdbjava-0.7.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\79b2e646\\025fb2e5\\jackson-annotations-2.10.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\2cdc7005\\aa4347ce\\cinnamon-java-2.13.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\6cc771b5\\1b96c5e6\\simpleclient_httpserver-0.8.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\01b6d3db\\a7690bbc\\akka-management-cluster-http_2.13-1.0.5.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\630a9a58\\4e207215\\akka-slf4j_2.13-2.6.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\ebe66a75\\be35860f\\agrona-1.0.8.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\4ed2b2e3\\ea1caec1\\protobuf-java-3.10.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\17516009\\14d77992\\HdrHistogram-2.1.12.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\528933fa\\9f77b5f0\\simpleclient_common-0.8.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\4f76e975\\17cd9300\\jackson-dataformat-cbor-2.10.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\b6dfbd20\\9058fb50\\cinnamon-common-2.13.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\dba3ba39\\3a662b3b\\akka-diagnostics_2.13-1.1.12.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\187e5d12\\76f2ba34\\jnr-ffi-2.1.9.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\bf7bfce5\\3df2aabe\\jffi-1.2.18.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\11a57102\\f69ed484\\cinnamon-akka_2.13-2.13.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\18794419\\c21dd68c\\akka-http_2.13-10.1.11.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\4fa92f7f\\814119e2\\akka-cluster_2.13-2.6.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\313339a7\\748e460d\\cinnamon-prometheus-httpserver-2.13.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\b71bfec6\\052d106f\\slf4j-api-1.7.28.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\12926f43\\e695b49a\\akka-actor_2.13-2.6.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\6ff460b6\\80eb210f\\akka-remote_2.13-2.6.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\ceaeb4ec\\d875bee2\\jnr-x86asm-1.0.2.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\361211ca\\1b1e610b\\cinnamon-prometheus-2.13.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\54cd31c3\\30189697\\akka-management_2.13-1.0.5.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\2230d467\\daed874d\\paranamer-2.8.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\89d10161\\3bc0ac48\\akka-persistence_2.13-2.6.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\b3c78439\\002f34b9\\cinnamon-core_2.13-2.13.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\a2ff8ec0\\8fa64fae\\reactive-streams-1.0.3.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\4d95aad7\\e023e618\\jackson-module-parameter-names-2.10.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\dbcc25a1\\2a0bf9ae\\asm-tree-5.0.3.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\b19ce759\\ab926ea8\\jackson-module-paranamer-2.10.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\43080d9d\\22111b7f\\asm-analysis-5.0.3.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\c8db9284\\eca239bd\\jffi-1.2.18-native.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\6f1c9d64\\2c145835\\asm-util-5.0.3.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\4aa00747\\c5f17aae\\akka-parsing_2.13-10.1.11.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\77e6cbc7\\a021cd8c\\jackson-datatype-jsr310-2.10.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\982e9971\\8d05bad2\\logback-core-1.2.3.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\2e9ad74c\\054ff98d\\akka-cluster-tools_2.13-2.6.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\8dc1cd6b\\4870ab3c\\jackson-databind-2.10.0.jar;C:\\Users\\ac23171\\AppData\\Local\\Temp\\sbt_34739fd0\\target\\b0d94310\\5254d47e\\akka-stream_2.13-2.6.0.jar",
+        "version": "55.0"
+      },
+      "home": "C:\\JDK",
+      "io": {
+        "tmpdir": "C:\\Users\\ac23171\\AppData\\Local\\Temp\\"
+      },
+      "library": {
+        "path": "C:\\JDK\\bin;C:\\windows\\Sun\\Java\\bin;C:\\windows\\system32;C:\\windows;C:\\Users\\ac23171\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\ac23171\\bin;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0;C:\\windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\usr\\bin;C:\\JDK\\bin;C:\\Maven\\apache-maven-3.6.2\\bin;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio;C:\\Program Files\\dotnet;C:\\Program Files\\Microsoft\\Web Platform Installer;C:\\Program Files\\nodejs;C:\\Program Files (x86)\\WinMerge;C:\\sbt\\bin;C:\\Program Files\\PuTTY;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\ac23171\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ac23171\\AppData\\Roaming\\npm;C:\\Users\\ac23171\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl;."
+      },
+      "runtime": {
+        "name": "OpenJDK Runtime Environment",
+        "version": "11.0.5+10"
+      },
+      "specification": {
+        "name": "Java Platform API Specification",
+        "vendor": "Oracle Corporation",
+        "version": "11"
+      },
+      "vendor": {
+        "url": {
+          "bug": "https://github.com/AdoptOpenJDK/openjdk-build/issues"
+        },
+        "version": "AdoptOpenJDK"
+      },
+      "version": "11.0.5",
+      "vm": {
+        "compressedOopsMode": "Zero based",
+        "info": "mixed mode",
+        "name": "OpenJDK 64-Bit Server VM",
+        "specification": {
+          "name": "Java Virtual Machine Specification",
+          "vendor": "Oracle Corporation",
+          "version": "11"
+        },
+        "vendor": "AdoptOpenJDK",
+        "version": "11.0.5+10"
+      }
+    },
+    "jdk": {
+      "debug": "release"
+    },
+    "line": {
+      "separator": "\r\n"
+    },
+    "os": {
+      "arch": "amd64",
+      "name": "Windows 10",
+      "version": "10.0"
+    },
+    "path": {
+      "separator": ";"
+    },
+    "sun": {
+      "arch": {
+        "data": {
+          "model": "64"
+        }
+      },
+      "boot": {
+        "library": {
+          "path": "C:\\JDK\\bin"
+        }
+      },
+      "cpu": {
+        "endian": "little",
+        "isalist": "amd64"
+      },
+      "desktop": "windows",
+      "io": {
+        "unicode": {
+          "encoding": "UnicodeLittle"
+        }
+      },
+      "java": {
+        "command": "com.reactivebbq.loyalty.Main -Dakka.http.server.default-http-port=8000 -Dakka.remote.artery.canonical.port=2551 -Dakka.management.http.port=8558 -Dcinnamon.prometheus.http-server.port=9001",
+        "launcher": "SUN_STANDARD"
+      },
+      "jnu": {
+        "encoding": "Cp1252"
+      },
+      "management": {
+        "compiler": "HotSpot 64-Bit Tiered Compilers"
+      },
+      "os": {
+        "patch": {
+          "level": ""
+        }
+      }
+    },
+    "user": {
+      "country": "US",
+      "language": "en",
+      "script": "",
+      "timezone": "America/Regina",
+      "variant": ""
+    }
+  }
+}
+

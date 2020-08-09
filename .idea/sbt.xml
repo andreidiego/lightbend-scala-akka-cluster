@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customVMPath" />
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="allowSbtVersionOverride" value="false" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/exercises" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/exercises" />
+            <option value="$PROJECT_DIR$/exercises/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.3.6" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="allowSbtVersionOverride" value="false" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/solutions/000-initial-state" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/solutions/000-initial-state" />
+            <option value="$PROJECT_DIR$/solutions/000-initial-state/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.3.6" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="allowSbtVersionOverride" value="false" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/solutions/001-cluster-formation" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/solutions/001-cluster-formation" />
+            <option value="$PROJECT_DIR$/solutions/001-cluster-formation/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.3.6" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="allowSbtVersionOverride" value="false" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/solutions/002-cluster-management" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/solutions/002-cluster-management" />
+            <option value="$PROJECT_DIR$/solutions/002-cluster-management/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.3.6" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="allowSbtVersionOverride" value="false" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/solutions/003-split-brain-resolver" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/solutions/003-split-brain-resolver" />
+            <option value="$PROJECT_DIR$/solutions/003-split-brain-resolver/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.3.6" />
+      </SbtProjectSettings>
+    </option>
+  </component>
+</project>

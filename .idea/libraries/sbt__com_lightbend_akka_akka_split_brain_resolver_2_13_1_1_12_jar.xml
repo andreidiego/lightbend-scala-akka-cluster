@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.lightbend.akka:akka-split-brain-resolver_2.13:1.1.12:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo.lightbend.com/pass/ufew-6w02eOIlT5mB_0iW_hzpvHX38hHGJ--anovgLYMBpkm/commercial-releases/com/lightbend/akka/akka-split-brain-resolver_2.13/1.1.12/akka-split-brain-resolver_2.13-1.1.12.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo.lightbend.com/pass/ufew-6w02eOIlT5mB_0iW_hzpvHX38hHGJ--anovgLYMBpkm/commercial-releases/com/lightbend/akka/akka-split-brain-resolver_2.13/1.1.12/akka-split-brain-resolver_2.13-1.1.12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
